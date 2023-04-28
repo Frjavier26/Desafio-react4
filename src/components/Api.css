@@ -1,0 +1,47 @@
+body{
+    background-image: url(/src/assets/img/fondoP.jpg);
+    background-size: auto;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: red;
+}
+.search{
+    background-size: 100%;
+    display: flex;
+    gap: 15px;
+}
+.search input{
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 30px;
+    width: 180px;
+}
+.search button{
+    border: 2px solid green;
+    height: 40px;
+    width: 180px;
+
+}
+.name{
+    color: black;
+    font-size: 25px;
+    font-family: verdana;
+}
+.url a{
+    color: rgb(18, 220, 75);
+    font-size: 25px;
+}
+.card{
+    display: flex;
+    gap: 30px;
+
+}
